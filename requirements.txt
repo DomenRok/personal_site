@@ -1,0 +1,12 @@
+# dev
+coverage
+
+
+# core
+django
+django-extensions
+django-debug-toolbar
+djangorestframework
+markdown
+django-filter
+Pygments
