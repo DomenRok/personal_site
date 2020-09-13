@@ -5,8 +5,7 @@ from django.utils import timezone
 from django.conf import settings
 
 def index(request):
-    print(settings.BASE_DIR)
-    return render(request, 'base.html', {
+    return render(request, 'index.html', {
         'date': timezone.now() 
     })
     
