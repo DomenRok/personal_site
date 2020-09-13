@@ -16,9 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from apps.home import urls
+from apps.snippets import views
 
 urlpatterns = [
-    path('', include('apps.home.urls')), 
+    path('', views.api_root),
+    path('', include('apps.snippets.urls')),
+    path('snippets/<int:pk>/highlight/', views.SnippetHighlight.as_view()),
+    path('home/', include('apps.home.urls')), 
     path('admin/', admin.site.urls),
 ]
