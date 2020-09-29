@@ -23,6 +23,5 @@ from .views import index
 from django.conf.urls.static import static
 
 urlpatterns = [
-    path('index/', index, name="index")
+    path('', index, name="index")
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
