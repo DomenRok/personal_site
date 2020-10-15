@@ -1,13 +1,22 @@
 # dev
 coverage
+django-debug-toolbar
+django-extensions
 
 
 # core
 django
+django-webpack-loader
 django-extensions
 django-debug-toolbar
 djangorestframework
 markdown
+
 django-filter
 Pygments
 psycopg2-binary>=2.8
+django-import-export
+djangoql
+django-sql-explorer[xls]
+django-taggit
+
