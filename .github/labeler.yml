@@ -1,2 +1,1 @@
-label1:
-    - any: ['*']
+- test: ['test*.py']
