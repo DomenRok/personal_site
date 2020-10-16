@@ -1,0 +1,9 @@
+# linters
+black
+pylint
+flake8
+
+# testing
+pytest
+pytest-django
+tox
