@@ -1,2 +1,2 @@
 - test: 
-  - any: ["test*.py"]
+  - "test*.py"
